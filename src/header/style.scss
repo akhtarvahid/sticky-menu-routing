@@ -1,0 +1,22 @@
+
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    .header {
+        font-size: 35px;
+        color: white;
+        animation: decreaseIt .3s;
+    }
+    .header-shrink {
+        font-weight: 600;
+        color: white;
+        font-size: 22px;
+    }
+}
+@keyframes decreaseIt {
+    0% {font-size: 25px;}
+    50%{font-size: 28px;}
+    75%{font-size: 32px;}
+    100% {font-size: 35px;}
+}
